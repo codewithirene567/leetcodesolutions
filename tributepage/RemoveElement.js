@@ -9,3 +9,5 @@ function removeElement(nums, value) {
     }
        length--
     }
+    return nums.length
+};
