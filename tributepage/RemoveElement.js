@@ -6,4 +6,6 @@ function removeElement(nums, value) {
     } else {
         let temporary = nums.shift()
         nums.push(temporary)
- }
+    }
+       length--
+    }
